@@ -1,0 +1,35 @@
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+/app/build
+/app/.cxx
+*.apk
+*.aar
+
+# Hardware / ESP32
+/esp32_helmet/build/
+/esp32_helmet/.pio/
+/esp32_helmet/.vscode/
+*.bin
+*.elf
+*.map
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (already in local.properties, but just in case)
+secrets.xml
+google-services.json
