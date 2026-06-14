@@ -32,6 +32,19 @@ Riders often struggle with checking navigation on their phones mounted on handle
 - **Communication**: Bluetooth Serial (SPP)
 - **Language**: C++/Arduino
 
+## 🔌 Hardware Connections
+To build the ViNav Helmet, connect the **SH1106 OLED** to the **ESP32** using the following I2C pinout:
+
+| OLED Pin | ESP32 Pin | Description |
+| :--- | :--- | :--- |
+| **VCC** | **3.3V** | Power Supply |
+| **GND** | **GND** | Ground |
+| **SCL** | **GPIO 22** | I2C Clock |
+| **SDA** | **GPIO 21** | I2C Data |
+
+> [!NOTE]
+> Ensure you have the `U8g2` library installed in your Arduino IDE to drive the display.
+
 ## 📂 Project Structure
 ```text
 .
