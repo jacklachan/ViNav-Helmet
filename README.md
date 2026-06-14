@@ -66,7 +66,7 @@ To build the ViNav Helmet, connect the **SH1106 OLED** to the **ESP32** using th
 3. Build and run the `app` module in Android Studio.
 
 ## 📺 Demo Video
-[Link to your submission video here]
+uploded on unstop
 
 ---
 **Built with ❤️ for FAR AWAY 2026**
